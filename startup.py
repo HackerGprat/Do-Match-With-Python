@@ -6,3 +6,4 @@ def tables(number):
 
 if __name__ == "__main__":
     tables(2)
+    print( "clear the screen")
