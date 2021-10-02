@@ -1,9 +1,11 @@
-def tables(number):
+def tables( start, default=10 ):
 
-    for i in range(1,11):
-        print( number * i)
+    for i in range(1, (default + 1) ):
+        print( start * i)
             
 
 if __name__ == "__main__":
     
-    pass    
+    tables( 2, 20 )
+    
+    
