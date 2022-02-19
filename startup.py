@@ -1,11 +1,11 @@
 def tables( start, default=10 ):
-
+    table = []
     for i in range(1, (default + 1) ):
-        print( start * i)
+        table.append( start * i )
+    return table
             
 
 if __name__ == "__main__":
     
-    tables( 2, 20 )
-    
+    print( tables(2, 16) )
     
